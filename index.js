@@ -3,7 +3,9 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser'; // Add this
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-import authRoutes from './routes/AuthRoutes.js';
+// import authRoutes from './routes/AuthRoutes.js';
+import authRoutes from './routes/authRoutes';
+
 import DutyOrderRoutes from './routes/DutyOrderRoutes.js';
 import notificationRoutes from './routes/notificationRoutes.js';
 import auditLogRoutes from './routes/auditLogRoutes.js';
